@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".SecMainActivity">
+
+    <Button
+        android:id="@+id/btn_kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>                                                      "
+
+    <TextView
+        android:id="@+id/tv_konfirmasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KONFIRMASI PENDAFTARAN"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_tampil_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_tampil_nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pendaftaran Dari:"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <CheckedTextView
+        android:id="@+id/ctv_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <CheckedTextView
+        android:id="@+id/ctv_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+    <CheckedTextView
+        android:id="@+id/ctv_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
